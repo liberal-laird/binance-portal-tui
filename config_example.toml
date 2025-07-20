@@ -1,0 +1,33 @@
+# Binance Portal TUI 配置文件示例
+# 复制此文件到配置目录并重命名为 config.toml
+
+refresh_interval = 20
+binance_api_url = "https://api.binance.com"
+
+[theme]
+primary = "#00ff00"
+secondary = "#ffff00"
+background = "#000000"
+text = "#ffffff"
+
+[trading_pairs]
+# 默认交易对列表
+default_pairs = [
+    "BTCUSDT",
+    "ETHUSDT", 
+    "BNBUSDT",
+    "ADAUSDT",
+    "DOTUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "XRPUSDT"
+]
+
+# 自定义交易对列表（用户添加的会保存在这里）
+custom_pairs = [
+    "SOLUSDT",
+    "MATICUSDT"
+]
+
+# 最大显示交易对数量
+max_display_pairs = 20 
