@@ -2,7 +2,10 @@
 
 一个基于 Rust 和 ratatui 构建的币安行情 TUI 应用。
 
+![Binance Portal TUI](assets/tui.png)
+
 ## 功能特性
+
 
 - 实时显示币安交易对价格和涨跌幅
 - 5分钟周期 K 线图显示，包含交易对名称和详细信息
